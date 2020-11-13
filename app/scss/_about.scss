@@ -1,0 +1,37 @@
+$margin-bottom: 35;
+$margin: 45;
+
+.about {
+    margin: rem($margin) 0px;
+
+    &>.container {
+        display: flex;
+        align-items: center;
+    }
+
+    &-img {
+        margin-right: 48px; 
+
+        &>img {
+            width: rem(358);
+        }
+    }
+
+    &-text {
+        &>h3 {
+            color: $pirple;
+            font-size: 24px;
+            font-family: "Pacifico", serif;
+            margin-bottom: rem($margin-bottom);
+        }
+
+        &>p {
+            font-size: rem(14);
+            letter-spacing: 0.02rem;
+            line-height: rem(23);
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            margin-bottom: rem(42);
+        }
+    }
+}
