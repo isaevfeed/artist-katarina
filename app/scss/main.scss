@@ -1,5 +1,13 @@
 @import "fonts";
 @import "vars";
+@import "reset";
+@import "_functions/rem";
 
+@import "header";
+
+.container {
+    max-width: rem(1140);
+    margin: 0 auto;
+}
 
 @import "media"; // Всегда в конце
