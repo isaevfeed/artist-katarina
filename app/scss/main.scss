@@ -12,13 +12,20 @@
     margin: 0 auto;
 }
 
+.top-scroll {
+    position: relative;
+    margin-top: rem(355);
+    background: $white;
+    z-index: 1
+}
+
 .btn {
     display: inline-block;
     position: relative;
     color: $pirple;
     font-family: "Pacifico", serif;
     text-decoration: none;
-    font-size: rem(21);
+    font-size: rem(21); 
 
     &-before {
         display: block;
@@ -28,21 +35,23 @@
         background: $pirple;
         top: rem(-9);
         left: rem(-9);
-        transition: all.3s linear;
-        z-index: -1;
+        transition: all.2s linear;
+        z-index: 1;
     }
 
     &-text {
         display: block;
+        position: relative;
         background: $white;
         padding: rem(18) rem(50);
         box-sizing: border-box;
         border: rem($btn-border-width) solid $pirple;
-        transition: transform.3s linear;
+        transition: transform.2s linear;
+        z-index: 2;
 
         &-t {
             display: block;
-            transition: transform.3s linear;
+            transition: transform.2s linear;
         }
     }
 
