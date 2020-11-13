@@ -1,0 +1,29 @@
+.nav {
+    background: $dark;
+    border-bottom: 4px solid $pastel;
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-item {
+    display: block;
+    padding: 22px 0;
+
+    a {
+        display: block;
+        color: $white;
+        font-size: 21px;
+        font-family: Pacifico;
+        text-decoration: none;
+        transform: translateY(0px);
+        transition: all.3s;
+
+        &:hover {
+            color: $pastel;            transform: translateY(-2px);
+        }
+    }
+}
