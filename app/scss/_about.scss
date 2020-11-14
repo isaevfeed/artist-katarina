@@ -18,12 +18,6 @@ $margin: 45;
     }
 
     &-text {
-        &>h3 {
-            color: $pirple;
-            font-size: 24px;
-            font-family: "Pacifico", serif;
-            margin-bottom: rem($margin-bottom);
-        }
 
         &>p {
             font-size: rem(14);
