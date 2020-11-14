@@ -1,7 +1,17 @@
 .works {
+    background: $dark;
+
     &>.container {
+        position: relative;
+        padding: rem(45) 0;
+
         &>h3 {
-            margin: 0 auto;
+            text-align: center;
+            margin-bottom: rem(45);
         }
+    }
+
+    &-btn-block {
+        text-align: center;
     }
 }
