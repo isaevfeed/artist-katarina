@@ -23,12 +23,23 @@
 	<meta name="msapplication-navbutton-color" content="#000">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-	<style></style>
-
-	<link rel="stylesheet" href="css/main.min.css">
+	<!-- <style>html, body {background: #fff; opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/preloader.css">
 </head>
 
 <body>
+	<div class="preloader">
+		<div class="preloader-squares">
+			<div class="preloader-squares-row">
+				<div class="preloader-square preloader-anim-1"></div>
+				<div class="preloader-square preloader-anim-2"></div>
+			</div>
+			<div class="preloader-squares-row">
+				<div class="preloader-square preloader-anim-4"></div>
+				<div class="preloader-square preloader-anim-3"></div>
+			</div>
+		</div>
+	</div>
 
 	<header class="header">
 		<div class="container"></div>
@@ -124,8 +135,13 @@
 		</div>
 	</section>
 
+	<link rel="stylesheet" href="css/main.min.css">
 	<script src="libs/jquery/dist/jquery.min.js"></script>
 	<script src="js/scripts.min.js"></script>
-
+	<script>
+		$(window).on('load', function() {
+			$('.preloader').fadeOut().end().delay(500).fadeOut('slow');
+		});
+	</script>
 </body>
 </html>

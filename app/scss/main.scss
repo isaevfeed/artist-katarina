@@ -10,4 +10,8 @@
 
 @import "options";
 
+html, body {
+    opacity: 1;
+}
+
 @import "media"; // Всегда в конце
