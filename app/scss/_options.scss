@@ -92,6 +92,21 @@
     }
 }
 
+.section {
+    &>.container {
+        padding: rem(100) 0;
+
+        &>h3 {
+            text-align: center;
+            margin-bottom: rem(70);
+        }
+    }
+}
+
+.section-dark {
+    background: $dark;
+}
+
 .decor-line {
     position: absolute;
     left: 0;
