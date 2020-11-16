@@ -1,4 +1,8 @@
 .review {
+    .container {
+        padding-bottom: rem(180) !important;
+    }
+
     .title {
         margin-bottom: rem(100)!important;
     }
@@ -14,6 +18,7 @@
         border: 2px solid $pirple;
         border-bottom-width: 6px;
         box-sizing: border-box;
+        background: $white;
         padding: rem(30) rem(20);
         margin: 0 rem(23);
 
@@ -63,7 +68,31 @@
     }
 }
 
+.decor-cube-top, .decor-cube-bottom, .decor-cube-behind {
+    background: $white;
+    position: absolute;
+    border: 1px solid #1F0B2C;
+    transform: rotateZ(45deg);
+}
+
 .decor-cube-top {
     width: rem(123);
     height: rem(123);
+    top: rem(40);
+    left: 25%;
+}
+
+.decor-cube-bottom {
+    width: rem(172);
+    height: rem(172);
+    bottom: rem(60);
+    left: 10%;
+}
+
+.decor-cube-behind {
+    width: rem(280);
+    height: rem(280);
+    bottom: rem(40);
+    right: 14%;
+    z-index: -1;
 }
