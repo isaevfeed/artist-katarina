@@ -12,5 +12,5 @@ function decoreLineMove(pos, val) {
     const decoreNav = $('.nav-decore-inside');
     
     decorLine.css(pos, -1 * (val / 50));
-    decoreNav.css(pos, -1 * (val / 10));   
+    decoreNav.css(pos, -1 * (val / 10));
 }
