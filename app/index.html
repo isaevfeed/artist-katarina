@@ -135,12 +135,21 @@
 		</div>
 	</section>
 
+	<section class="about">
+		<div class="container">
+			<h3 class="title title-dark">
+				Что обо мне говорят?
+			</h3>
+		</div>
+	</section>
+
 	<link rel="stylesheet" href="css/main.min.css">
 	<script src="libs/jquery/dist/jquery.min.js"></script>
 	<script src="js/scripts.min.js"></script>
 	<script>
 		$(window).on('load', function() {
-			$('.preloader').fadeOut().end().delay(500).fadeOut('slow');
+			// $('.preloader').fadeOut().end().delay(500).fadeOut('slow');
+			$('.preloader').slideUp().end().delay(500).slideUp('slow');
 		});
 	</script>
 </body>
