@@ -9,11 +9,13 @@
 @import "works";
 @import "review";
 @import "order";
+@import "footer";
 
 @import "options";
 
 html, body {
     opacity: 1;
+    min-height: 100%;
 }
 
 @import "media"; // Всегда в конце

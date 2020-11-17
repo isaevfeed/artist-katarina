@@ -16,6 +16,7 @@
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<script src="https://kit.fontawesome.com/d21a0097bc.js" crossorigin="anonymous"></script>
 
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#000">
@@ -203,26 +204,63 @@
 	<section class="order">
 		<div class="order-bg"></div>
 		<div class="container">
-			<div class="order-title">
-				<div class="order-title-item order-title-text">
-					<h3 class="title title-pastel">Оставьте заявку прямо сейчас!</h3>
-				</div>
-				<div class="order-title-item order-title-image">
-					<img src="img/kate.png" />
-				</div>
-			</div>
-			<div class="order-form">
-				<form action="">
-					<div class="order-left-group">
-						<div class="order-input"></div>
+			<div class="order-container">
+				<div class="order-title">
+					<div class="order-title-item order-title-text">
+						<h3 class="title title-pastel">Оставьте заявку прямо сейчас!</h3>
 					</div>
-					<div class="order-right-group">
-						<div class="order-input"></div>
+					<div class="order-title-item order-title-image">
+						<img src="img/kate.png" />
 					</div>
-				</form>
+				</div>
+				<div class="order-form">
+					<form action="">
+						<div class="order-form-item order-left-group">
+							<div class="order-input">
+								<input type="text" name="name" placeholder="Ваше имя" />
+							</div>
+							<div class="order-input">
+								<input type="tel" name="phone" placeholder="Номер телефона" />
+							</div>
+							<div class="order-input">
+								<input type="email" name="email" placeholder="Адрес электронной почты" />
+							</div>
+						</div>
+						<div class="order-form-item order-right-group">
+							<div class="order-input">
+								<textarea name="message" cols="30" rows="4" placeholder="Оставьте сообщение"></textarea>
+							</div>
+							<div class="order-btn">
+								<div class="order-btn-before"></div>
+								<div class="order-btn-content">
+									<button>Оставить заявку</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-info">
+				Artist.Katarina <i class="far fa-copyright"></i> Все права защищены
+			</div>
+			<div class="footer-socials">
+				<a href="#">
+					<i class="fab fa-instagram-square"></i>
+				</a>
+				<a href="#">
+					<i class="fab fa-facebook-square"></i>
+				</a>
+				<a href="#">
+					<i class="fab fa-youtube-square"></i>
+				</a>
+			</div>
+		</div>
+	</footer>
 
 	<link rel="stylesheet" href="css/main.min.css">
 	<script src="libs/jquery/dist/jquery.min.js"></script>
