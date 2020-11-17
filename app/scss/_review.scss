@@ -1,6 +1,6 @@
 .review {
     .container {
-        padding-bottom: rem(180) !important;
+        padding-bottom: rem(80) !important;
     }
 
     .title {
@@ -85,14 +85,14 @@
 .decor-cube-bottom {
     width: rem(172);
     height: rem(172);
-    bottom: rem(60);
+    bottom: rem(-180);
     left: 10%;
 }
 
 .decor-cube-behind {
     width: rem(280);
     height: rem(280);
-    bottom: rem(40);
+    bottom: rem(-80);
     right: 14%;
     z-index: -1;
 }

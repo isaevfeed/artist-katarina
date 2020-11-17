@@ -17,6 +17,6 @@ function decoreLineMove(pos, val) {
     decorLine.css(pos, -1 * (val / 50));
     decoreNav.css(pos, -1 * (val / 10));
     decoreAboutTop.css(pos, -1 * (val / 30));
-    decoreAboutBot.css('bottom', (val / 50) - 60);
-    decoreAboutBeh.css('bottom', (val / 30) + 40);
+    decoreAboutBot.css('bottom', (val / 50) - 180);
+    decoreAboutBeh.css('bottom', (val / 30) - 80);
 }
