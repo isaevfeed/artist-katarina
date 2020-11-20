@@ -9,18 +9,22 @@
 
     &-items {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
     &-item {
+        display: inline-block;
         position: relative;
         max-width: rem(212);
+        min-width: rem(212);
         border: 2px solid $pirple;
         border-bottom-width: 6px;
         box-sizing: border-box;
         background: $white;
         padding: rem(30) rem(20);
-        margin: 0 rem(23);
+        margin: 0 rem(20) rem(40) rem(20);
+        flex: 1 1 25%;
 
         &:nth-child(odd) {
             transform: translateY(-30px);

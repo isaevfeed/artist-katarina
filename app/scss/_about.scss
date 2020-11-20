@@ -7,11 +7,15 @@ $margin: 80;
     &>.container {
         display: flex;
         align-items: center;
-        padding: 0 rem(190);
+        flex-wrap: wrap;
+        padding: 0 rem(30);
+        justify-content: center;
     }
 
     &-img {
-        margin-right: 48px; 
+        // margin-right: 48px; 
+        width: 35%;
+        min-width: rem(358);
 
         &>img {
             width: rem(358);
@@ -19,6 +23,8 @@ $margin: 80;
     }
 
     &-text {
+        width: 65%;
+
         &>p {
             font-size: rem(14);
             letter-spacing: 0.02rem;
